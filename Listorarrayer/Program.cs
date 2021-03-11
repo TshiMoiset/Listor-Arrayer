@@ -19,7 +19,20 @@ namespace Listorarrayer
 
             Console.ReadLine(); */
 
-            
+            List<string> marioVillains = new List<string>() {"Bowser", "Wario", "Goomba", "Meowswer", "Kamek"};
+
+            string marioVillains = random.Next(list.Count);
+            Console.WriteLine(list[marioVillains]);
+
+            for (int i = 0; i < marioVillains.Length; i++)
+            {
+                Console.WriteLine(marioVillains);
+            }
+
+            Console.ReadLine();
+        
+
+
 
 
 
